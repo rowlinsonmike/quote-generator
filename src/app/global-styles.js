@@ -5,12 +5,11 @@ const GlobalStyle = createGlobalStyle`
       padding: 0;
       margin: 0;
       box-sizing: border-box;
-      border: none;
       outline: none;
-      font-family: 'Lobster', cursive;
-      text-align: 'center';
-      font-weight: 700;
-      color: #000;
+      font-family: 'Lobster', cursive;    
+  }
+  html{
+    font-size: 20px;
   }
   body {
     min-height: 100vh;
@@ -19,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 `;
 
